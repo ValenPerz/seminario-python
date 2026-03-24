@@ -53,7 +53,7 @@ print()
 for word in palabras_mezcladas:
     guessed = []
     attempts = 8 # Se cambió a 8 porque habían palabras con hasta 7 caracteres diferentes como "Algoritmo"
-    print(word)  # Para debuggear
+    #print(word)  # Para debuggear
 
     while attempts >= 0: # El comparador >= se debe a que si se acierta la palabra teniendo 1 intento, el jugador pierde igual
         progress = ""
